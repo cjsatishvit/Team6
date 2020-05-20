@@ -7,7 +7,7 @@
 <title>Registration form</title>
 </head>
 <body>
-	<form action="loginRegister">
+	<form action="loginRegister" method="post">
 		<table
 			style="background-color: lightgreen; margin-left: 20px; margin-left: 20px;">
 			<tr>
@@ -20,11 +20,11 @@
 			</tr>
 			<tr>
 				<td>Password :</td>
-				<td><input type="password" name="password"></td>
+				<td><input type="password" name="password1"></td>
 			</tr>
 			<tr>
 				<td>Retype Password :</td>
-				<td><input type="password" name="password"></td>
+				<td><input type="password" name="password2"></td>
 			</tr>
 			<tr>
 				<td><input type="submit" name="submit" value="register"></td>
