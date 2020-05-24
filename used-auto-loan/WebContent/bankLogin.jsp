@@ -4,23 +4,21 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Welcome to The Bank</title>
+<title>Bank Login</title>
 </head>
 <body>
 <p style="text-align:right;"><%= new java.util.Date() %></p>
+
 <center>
 <h1>The Bank</h1>
 
+<br>
 
 
-<a href="bankLogin.jsp">Click Here For Bank Employee Login</a>
-
-	<br>
-	<form action="Login" method="post">
+<form action="BankLogin" method="post">
 		
-		
-		<br>
-		<h3>Account Holder Login</h3>
+			<br>
+			<h3>Bank Employee Login</h3>	
 	<table border="0">
                 <tr>
                     <td>Enter username : </td>
@@ -32,9 +30,11 @@
                 </tr>
                 
       </table>
-	<input type="Submit" value="Login">
+	<input type="Submit" value="BankLogin">
 	</form>
-	</center>
-	
+
+
+</center>
+
 </body>
 </html>
