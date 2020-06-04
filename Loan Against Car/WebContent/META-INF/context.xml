@@ -1,0 +1,11 @@
+<Context>
+
+  <Resource name="jdbc/bank_loan" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="utkrisht" password="utkrisht" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/bank_loan?useSSL=false&amp;serverTimezone=UTC"
+               />
+
+</Context>
