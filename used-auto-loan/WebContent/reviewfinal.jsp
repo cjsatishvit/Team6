@@ -60,8 +60,12 @@
 			while(res.next())
 				{
 				if(((res.getString(8)).contains("LOApproved")))
+<<<<<<< HEAD
+				{					
+=======
 				{
 					
+>>>>>>> branch 'master' of https://github.com/cjsatishvit/Team6.git
 				%>
 				<tr>
 				<td><%=res.getString(1)%></td>
