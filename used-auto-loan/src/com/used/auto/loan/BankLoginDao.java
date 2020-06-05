@@ -23,10 +23,18 @@ public class BankLoginDao
 			}
 			
 		}
+<<<<<<< HEAD
+		catch (Exception e) 
+		{
+          e.printStackTrace();
+      }
+		
+=======
 		catch (Exception exc)
 		{
 			
 		}
+>>>>>>> branch 'master' of https://github.com/cjsatishvit/Team6.git
 		return false;
 	}	
 

@@ -33,7 +33,11 @@ public class StatusFind extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 		String uname= request.getParameter("uname");
+<<<<<<< HEAD
+		//System.out.print(uname);
+=======
 		System.out.print(uname);
+>>>>>>> branch 'master' of https://github.com/cjsatishvit/Team6.git
 		
 		PrintWriter out = response.getWriter();
 		response.setContentType("text/html");
