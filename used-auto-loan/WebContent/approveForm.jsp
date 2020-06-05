@@ -41,10 +41,9 @@
 	}
 	catch(ClassNotFoundException e)
 	{
-<<<<<<< HEAD
+
 		e.printStackTrace();
-=======
->>>>>>> branch 'master' of https://github.com/cjsatishvit/Team6.git
+
 	}
 	try
 	{

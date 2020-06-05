@@ -32,20 +32,11 @@
 	String username = "root";
 	String password = "sou19999";
 	String id =request.getParameter("Id");
-<<<<<<< HEAD
 	String sql = "update used_auto_loan.application set Status_Loan='Approved' where ApplicationID="+id;
+	
 	try
 	{
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		
-	}
-	catch(ClassNotFoundException e)
-	{
-		e.printStackTrace();
-	}
-	try
-	{
-		
 		con = DriverManager.getConnection(url, username, password);
 		stm = con.createStatement();
 		
@@ -59,33 +50,6 @@
 	catch (Exception e)
 	{
 		e.printStackTrace();
-=======
-	String sql = "update used_auto_loan.application set Status_Loan='ROApproved' where ApplicationID="+id;
-	try
-	{
-		Class.forName("com.mysql.cj.jdbc.Driver");
-		
-	}
-	catch(ClassNotFoundException e)
-	{
-	}
-	try
-	{
-		
-		con = DriverManager.getConnection(url, username, password);
-		stm = con.createStatement();
-		
-		int x = stm.executeUpdate(sql);
-		if (x==1)
-		{
-			t=true;
-			
-		}
-	}
-	catch (Exception e)
-	{
-		
->>>>>>> branch 'master' of https://github.com/cjsatishvit/Team6.git
 	}
 	finally
 	{
