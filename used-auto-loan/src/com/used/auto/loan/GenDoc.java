@@ -123,13 +123,10 @@ private void addContent(Document document)
 		while(rs.next())
 		{
 			document.add(new Paragraph("\tThe Bank\n\n"));
-<<<<<<< HEAD
+
 			document.add(new Paragraph("\tMr/Mrs "+rs.getString(1)+" "+rs.getString(2)+" your application for Used Auto Loan is "+rs.getString(8)+". "+
-=======
-			document.add(new Paragraph("\tMr/Mrs "+rs.getString(1)+" "+rs.getString(2)+" your application for Used Auto Loan had been accepted. "+
->>>>>>> branch 'master' of https://github.com/cjsatishvit/Team6.git
-			
-					"The following are the details: \n\n"));
+
+			document.add(new Paragraph("\tMr/Mrs "+rs.getString(1)+" "+rs.getString(2)+" your application for Used Auto Loan had been accepted. The following are the details: \n\n"));
 			
 			table.addCell(Integer.toString(rs.getInt(6)));
 			table.addCell(rs.getString(15));
