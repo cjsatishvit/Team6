@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+h1{
+	color:blue;
+	text-align:center;
+}
+.button1 {
+  border: 2px solid #4CAF50;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  width: 60%;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+.button1:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.button2 {
+  border: 2px solid #008CBA;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  width: 60%;
+  position: absolute;
+  left: 300px;
+  top: 350px;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
